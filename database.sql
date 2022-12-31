@@ -49,7 +49,3 @@ WITH (FORMAT CSV);
 COPY books (ISBN, publisher_id, author_id, book_name, book_genre, total_copies)
 FROM 'C:\Users\Public\books.csv' 
 WITH (FORMAT CSV);
-
-
-
- 
