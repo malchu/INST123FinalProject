@@ -38,4 +38,14 @@ CREATE TABLE borrow_records (
     return_by date NOT NULL
 );
 
+COPY publishers (name, location)
+FROM 'C:\Users\Public\publishers.csv' 
+WITH (FORMAT CSV);
 
+COPY authors (first_name, last_name, gender, nationality)
+FROM 'C:\Users\Public\authors.csv' 
+WITH (FORMAT CSV);
+
+COPY books (ISBN, publisher_id, author_id, book_name, book_genre, total_copies)
+FROM 'C:\Users\Public\books.csv' 
+WITH (FORMAT CSV);
