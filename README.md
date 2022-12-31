@@ -46,6 +46,6 @@ There are several aspects that we can further expand our project as future work.
 Secondly, our current database implementation stores all books in the same table. For future work, where we will have many more books, it might be a better choice to split all books and put into several different tables, so that we can perform our queries more efficiently. For example, we may have one table for books of each genre. With such an implementation, if we want to find a science fiction book, we wouldn’t need to search over all books and perform a match, we could just perform this match in the science fiction books table, which would be much more efficient. 
 Lastly, we can add more columns into the tables to include more details about the books, book authors, members, borrow records and publishers. For example, we can include the authors’ born dates (ages) in the author’s table, we can also include the number of times that each library member missed a borrow due date in the members table, which could be very useful in certain real-life use cases.
 ## References
-AbeBooks. ISBN Search. http://www.abebooks.com/books/search-number-code-10-13-digit/ISBN.shtml. Accessed 10 Dec. 2020.
-Deshpande, Jaidev. “Books.Csv.” Gist, https://gist.github.com/jaidevd/23aef12e9bf56c618c41. Accessed 10 Dec. 2020.
+AbeBooks. ISBN Search. http://www.abebooks.com/books/search-number-code-10-13-digit/ISBN.shtml. Accessed 10 Dec. 2020.<br />
+Deshpande, Jaidev. “Books.Csv.” Gist, https://gist.github.com/jaidevd/23aef12e9bf56c618c41. Accessed 10 Dec. 2020.<br />
 ISBNsearch.org. ISBN Search. https://isbnsearch.org/. Accessed 10 Dec. 2020.
